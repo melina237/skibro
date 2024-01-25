@@ -147,7 +147,7 @@
       <bpmn:messageEventDefinition id="MessageEventDefinition_1qn81zk" messageRef="Message_28t1i9n" />
     </bpmn:intermediateCatchEvent>
     <bpmn:sequenceFlow id="Flow_1b6yzpg" sourceRef="Event_1ie2d5w" targetRef="Activity_0wzz2wm" />
-    <bpmn:userTask id="Activity_0wzz2wm" name="Datum wählen">
+    <bpmn:userTask id="Activity_0wzz2wm" name="Datum wählen" camunda:formRef="camunda_form_choose_date" camunda:formRefBinding="latest">
       <bpmn:incoming>Flow_1b6yzpg</bpmn:incoming>
       <bpmn:outgoing>Flow_0zcp5m6</bpmn:outgoing>
     </bpmn:userTask>
@@ -159,7 +159,7 @@
       </bpmn:timerEventDefinition>
     </bpmn:boundaryEvent>
     <bpmn:sequenceFlow id="Flow_0x6jk5k" sourceRef="Event_1p3xr7c" targetRef="Event_0knzugr" />
-    <bpmn:userTask id="Activity_1fxrwoj" name="Buchungswebsite besuchen">
+    <bpmn:userTask id="Activity_1fxrwoj" name="Buchungswebsite besuchen" camunda:formRef="camunda_form_choose_date" camunda:formRefBinding="latest">
       <bpmn:incoming>Flow_0or2eks</bpmn:incoming>
       <bpmn:outgoing>Flow_1dz6mig</bpmn:outgoing>
     </bpmn:userTask>

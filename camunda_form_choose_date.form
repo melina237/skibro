@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "subtype": "date",
+      "dateLabel": "Date",
+      "label": "Date",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_18lrjq4",
+        "columns": null
+      },
+      "id": "Field_1f19t5p",
+      "key": "datetime_iok46o",
+      "disallowPassedDates": true,
+      "validate": {
+        "required": false
+      },
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "camunda_form_choose_date",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 14
+}
