@@ -1,21 +1,36 @@
 {
   "components": [
     {
-      "subtype": "date",
-      "dateLabel": "Date",
-      "label": "Date",
-      "type": "datetime",
+      "values": [
+        {
+          "label": "01.02.2024",
+          "value": "01.02.2024"
+        },
+        {
+          "label": "02.02.2024",
+          "value": "02.02.2024"
+        },
+        {
+          "label": "03.02.2024",
+          "value": "03.02.2024"
+        },
+        {
+          "label": "04.02.2024",
+          "value": "04.02.2024"
+        },
+        {
+          "label": "05.02.2024",
+          "value": "05.02.2024"
+        }
+      ],
+      "label": "Checkbox group",
+      "type": "checklist",
       "layout": {
-        "row": "Row_18lrjq4",
+        "row": "Row_1bqyrrv",
         "columns": null
       },
-      "id": "Field_1f19t5p",
-      "key": "datetime_iok46o",
-      "disallowPassedDates": true,
-      "validate": {
-        "required": false
-      },
-      "properties": {}
+      "id": "Field_0qxwlca",
+      "key": "checklist_xmqd0n"
     }
   ],
   "type": "default",
