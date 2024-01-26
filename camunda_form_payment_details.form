@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "label": "Karteninhaber*in",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0qs5l2z",
+        "columns": null
+      },
+      "id": "Field_1nu39gf",
+      "key": "card_holder"
+    },
+    {
+      "label": "Kartennummer",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0dqwigx",
+        "columns": null
+      },
+      "id": "Field_0nnuzho",
+      "key": "card_number",
+      "validate": {
+        "pattern": "^(4[0-9]{15}|5[1-5][0-9]{14}|3[47][0-9]{13})$"
+      }
+    },
+    {
+      "label": "Gültig bis",
+      "type": "number",
+      "layout": {
+        "row": "Row_11llgzu",
+        "columns": 8
+      },
+      "id": "Field_0zfekij",
+      "key": "valit_until",
+      "description": "yymm",
+      "validate": {
+        "min": 2401,
+        "max": 9912
+      }
+    },
+    {
+      "label": "CVV",
+      "type": "number",
+      "layout": {
+        "row": "Row_11llgzu",
+        "columns": null
+      },
+      "id": "Field_1liq5ip",
+      "key": "cvv",
+      "validate": {
+        "max": 999,
+        "min": "=100"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "camunda_form_payment_details",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 14
+}
